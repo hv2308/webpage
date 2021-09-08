@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+   transition: 1000ms;
+}
+p{
+    font-weight: 300;
+    color: #111;
+}
+
+/* navbar start */
+.navv{
+    position: fixed;
+    transition: 1500ms;
+    z-index: 1000;
+    /* border:1px solid white; */
+}
+.navb{
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+.navb a{
+    color: white !important;
+}
+.navb span{
+    font-size: 25px;
+    color: orange !important;
+}
+.navbar-brand{
+    font-weight: 800;
+}
+.sticky{
+    background: white ;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+.sticky .navb a{
+    color: black !important;
+}
+
+/* navbar end */
+
+
+/* Home start */
+.home{
+    min-height: 110vh;
+    background-image: url(images/bg.jpg);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.home h2{
+    font-weight: 900;
+    font-size: 4rem;
+}
+.home p{
+    color: white;
+    font-weight: 300;
+}
+
+/* }
+.btn{
+
+} */
+/* Home end */
+
+
+/* about start */
+.flex1{
+    margin-top: 100px;
+}
+
+.flex1{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 200px 0;
+}
+.col2 img{
+    width: 100%;
+}
+
+/* about end */
+
+
+/* menu start */
+.menu{
+    margin-top: 50px;
+}
+.caption{
+    text-align: center;
+    margin-top: 100px;
+}
+.caption h1{
+font-weight: 800;
+}
+.card{
+    margin: 50px 20px;
+}
+.cards{
+display: flex;  
+flex-wrap: wrap;
+justify-content: space-around;
+margin-top: 50px;
+}
+
+
+/* expert start */
+.expert{
+    padding: 0 0 100px 0;
+   
+}
+.caption h1{
+    font-weight: 800;
+}
+.cardss{
+    display: flex;
+    margin-top: 30px;
+}
+.card2{
+    margin-left: 5px;
+}
+
+
+/* expert end */
+
+
+
+/* contact start */
+.form2{
+    margin: 10px 0 10px 0;
+}
+.form h3{
+    font-weight: 500;
+}
+.form{
+    box-shadow: 0 0 10px black;
+    padding: 40px 30px 100px 20px;
+}
+.btn1{
+    background-color: rgb(214, 27, 58);
+    color: white;
+    padding: 5px 10px 5px 10px;
+    font-family: 'poppins',sans-serif; 
+    letter-spacing: 2px;
+}
+.content{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    background-image: url(bg1.jpg);
+    border: 1px solid red;
+    margin-bottom: 60px;
+}
+/* contact end */
+
+
+@media (max-width:992px){
+    .flex1{
+        display: block;
+        padding-bottom: 70px;
+    }
+   .cardss{
+       display: flex;
+       flex-wrap: wrap;
+   }
+}
